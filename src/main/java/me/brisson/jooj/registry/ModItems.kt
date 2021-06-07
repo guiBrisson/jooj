@@ -9,7 +9,6 @@ import net.minecraft.util.registry.Registry
 
 class ModItems {
 
-
     fun registerItems() {
         // Items
         Registry.register(Registry.ITEM, Identifier(Jooj.MOD_ID, "ruby"), ruby)

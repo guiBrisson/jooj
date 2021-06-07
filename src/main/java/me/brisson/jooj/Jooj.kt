@@ -2,6 +2,7 @@ package me.brisson.jooj
 
 import me.brisson.jooj.registry.ModBlocks
 import me.brisson.jooj.registry.ModItems
+import me.brisson.jooj.registry.ModOres
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder
 import net.minecraft.item.ItemStack
@@ -11,10 +12,12 @@ class Jooj : ModInitializer {
 
     private var modItems = ModItems()
     private var modBlocks = ModBlocks()
+    private var modOres = ModOres()
 
     override fun onInitialize() {
         modItems.registerItems()
         modBlocks.registerBlocks()
+        modOres.registerOres()
     }
 
     companion object {
