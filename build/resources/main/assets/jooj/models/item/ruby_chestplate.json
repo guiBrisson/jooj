@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "jooj:items/ruby_chestplate"
-  }
-}
