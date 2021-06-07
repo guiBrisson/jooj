@@ -17,7 +17,7 @@ class RubyArmorMaterial: ArmorMaterial {
     }
 
     override fun getDurability(slot: EquipmentSlot): Int {
-        return PROTECTION_VALUES[slot.entitySlotId] * 40
+        return BASE_DURABILITY[slot.entitySlotId] * 40
     }
 
     override fun getProtectionAmount(slot: EquipmentSlot): Int {
