@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "jooj:block/ruby_block" }
+  }
+}

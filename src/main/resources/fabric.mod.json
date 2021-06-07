@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "jooj",
+  "version": "${version}",
+
+  "name": "Jooj",
+  "description": "Pega pela cabeça e Jooooooj!!",
+  "authors": [
+    "Brisson"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/jooj/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.brisson.jooj.Jooj"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

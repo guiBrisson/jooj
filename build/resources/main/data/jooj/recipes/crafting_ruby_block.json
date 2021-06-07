@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "jooj:ruby"
+    }
+  },
+  "result": {
+    "item": "jooj:ruby_block",
+    "count": 1
+  },
+  "group": "ruby_block"
+}
