@@ -1,4 +1,4 @@
-package me.brisson.jooj.armor_material
+package me.brisson.jooj.materials
 
 import me.brisson.jooj.registry.ModItems
 import net.minecraft.entity.EquipmentSlot
@@ -37,7 +37,7 @@ class RubyArmorMaterial: ArmorMaterial {
     }
 
     override fun getName(): String {
-        return "ruby"
+        return "ruby_armor"
     }
 
     override fun getToughness(): Float {

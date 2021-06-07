@@ -1,7 +1,7 @@
 package me.brisson.jooj.registry
 
 import me.brisson.jooj.Jooj
-import me.brisson.jooj.armor_material.RubyArmorMaterial
+import me.brisson.jooj.materials.RubyArmorMaterial
 import net.minecraft.entity.EquipmentSlot
 import net.minecraft.item.*
 import net.minecraft.util.Identifier
