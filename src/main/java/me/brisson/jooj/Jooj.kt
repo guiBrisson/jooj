@@ -5,6 +5,7 @@ import me.brisson.jooj.registry.ModItems
 import me.brisson.jooj.registry.ModOres
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder
+import net.minecraft.item.ItemGroup
 import net.minecraft.item.ItemStack
 import net.minecraft.util.Identifier
 
@@ -23,7 +24,7 @@ class Jooj : ModInitializer {
     companion object {
         const val MOD_ID: String = "jooj"
 
-        val itemGroup = FabricItemGroupBuilder.build(Identifier(MOD_ID, "general")) {
+        val itemGroup: ItemGroup = FabricItemGroupBuilder.build(Identifier(MOD_ID, "general")) {
             ItemStack(ModItems.ruby)
         }
     }
