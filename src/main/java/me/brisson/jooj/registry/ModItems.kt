@@ -52,12 +52,11 @@ class ModItems {
         val rubyBoots = ArmorItem(rubyArmorMaterial, EquipmentSlot.FEET, Item.Settings().group(itemGroup))
 
         // Tools
-        //todo: unfinished tools textures
-        val rubyShovel = ShovelItem(RubyToolsMaterial.newInstance(), 1.5f, -3f, Item.Settings().group(itemGroup))
-        val rubySword = SwordItem(RubyToolsMaterial.newInstance(), 7, -2.4f, Item.Settings().group(itemGroup)) // finished
-        val rubyPickaxe = RubyToolsMaterial.CustomPickaxeItem(RubyToolsMaterial.newInstance(), 5, 1.3f, Item.Settings().group(itemGroup))
-        val rubyAxe = RubyToolsMaterial.CustomAxeItem(RubyToolsMaterial.newInstance(), 7.0f, 1.0f, Item.Settings().group(itemGroup))
-        val rubyHoe = RubyToolsMaterial.CustomHoeItem(RubyToolsMaterial.newInstance(), 1, 0.5f, Item.Settings().group(itemGroup)) //finished
+        val rubyShovel = ShovelItem(RubyToolsMaterial.newInstance(), 5.0f, -3f, Item.Settings().group(itemGroup))
+        val rubySword = SwordItem(RubyToolsMaterial.newInstance(), 7, -2.4f, Item.Settings().group(itemGroup))
+        val rubyPickaxe = RubyToolsMaterial.CustomPickaxeItem(RubyToolsMaterial.newInstance(), 5, -2.8f, Item.Settings().group(itemGroup))
+        val rubyAxe = RubyToolsMaterial.CustomAxeItem(RubyToolsMaterial.newInstance(), 8.0f, -3.0f, Item.Settings().group(itemGroup))
+        val rubyHoe = RubyToolsMaterial.CustomHoeItem(RubyToolsMaterial.newInstance(), 1, 0.5f, Item.Settings().group(itemGroup))
 
     }
 
